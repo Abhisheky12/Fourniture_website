@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x:hidden;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100vw;
+    position:fixed;
+    top:0;
+    z-index:5;
+}
+.navoptions{
+    display:flex;
+    margin-right:1vw;
+}
+.navoptions a{
+    color:black;
+    font-size:4vh;
+}
+.name{
+    margin-right:4vw;
+}
+.imagesign img{
+    height:14vh;
+}
+.imagesign{
+    margin-left:2vw;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.insidebox{
+    border:1px solid black;
+    height:70vh;
+    width:30vw;
+    border-radius:10px;
+    margin-top:4vh;
+}
+.insidebox p{
+    font-size:2vh;
+}
+.formcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top:16vh;
+}
+.googlesign img{
+    height:3vh;
+}
+.googlesign {
+    display:flex;
+    gap:1vw;
+    align-items:center;
+    border: 1px solid #EAEAEA;
+    border-radius:10px;
+    padding:1vh;
+}
+.facebooksign img{
+     height:3vh;
+}
+.facebooksign {
+    display:flex;
+    gap:1vw;
+    align-items:center;
+    border: 1px solid #EAEAEA;
+    border-radius:10px;
+    padding:1vh;
+}
+.signupbox{
+    display:flex;
+    justify-content:space-around;
+    gap:0.5vw;
+    margin-top:6vh;
+}
+.ortext{
+    text-align: center;
+    margin-top:10vh;
+    color:   #909090;
+}
+.formpage{
+    display:flex;
+    flex-direction: column;
+    gap:4vh;
+    margin-top:6vh;
+    margin-left:2vw;
+    padding-right:2vw;
+}
+input{
+   border-width: 0px 0px 1px 0px;
+}
+button{
+    margin-left:2vw;
+    margin-top: 6vh;
+    padding:1vh 3vw;
+    border-radius: 8px;
+    border: none;
+    background-image:linear-gradient(#2c85ecf4,#2110e18e);
+}
+.section2{
+    margin-top:16vh;
+}
+.furbox{
+ display:flex;
+ flex-direction: column;
+ gap:4vh;
+ padding:3vw;
+}
+.sec2text{
+    margin-left:6vw;
+}
+.sec2text h1{
+    font-size:10vh;
+}
+.sec2text h4{
+    color:#0075FF;
+}
+.furimg{
+    display:flex;
+    justify-content: space-around;
+}
+.furimg img{
+       width: 40%; 
+       border-radius: 10px;
+}
+
+.section3{
+    margin-top:10vh;
+    display: flex;
+    flex-direction:column;
+    gap:2vh;
+}
+.section3 h2{
+    font-size:10vh;
+    font-weight:50;
+    text-align:center;
+}
+.teamhead{
+    display: flex;
+    gap:4vw;
+    margin-top:4vh;
+    background-color: #9B9B9B;
+    width:100vw;
+    padding-left:20vw;
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    margin-left:1vw;
+}
+.teamhead img{
+    border-radius:100%;
+    width:20%;
+}
+i{
+    font-size:6vh;
+}
+.carrie{
+    display: flex;
+    flex-direction:column;
+    gap:3vh;
+    padding:1vw;
+}
+
+.teamhead2{
+    display: flex;
+    gap:4vw;
+    margin-top:2vh;
+    background-color: #9B9B9B;
+    justify-content: end;
+    padding-right:22vw;
+    width:100vw;
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    margin-left:1vw;
+}
+.teamhead2 img{
+    border-radius:100%;
+    width:20%;
+}
+.section4{
+    margin-top:12vh;
+}
+.section4 h2{
+    font-size:10vh;
+    font-weight:40;
+    text-align:center;
+    text-decoration: underline;
+}
+.bestworkimg{
+    display: flex;
+    margin-top:6vh;
+    gap:6vw;
+    justify-content: center;
+}
+.bestworkimg img{
+    width: 30%;
+    border-radius: 10px;
+
+}
+.Design{
+    display: flex;
+    flex-direction: column;
+    gap:4vh;
+}
+.Design h3{
+    font-size:5vh;
+    font-weight:50;
+}
+.para{
+    line-height:3vh;
+}
+.bestwork{
+    display: flex;
+    flex-direction:column;
+    margin-top: 4vh;
+}
+#photo2 img{
+        width:35%;
+        border-radius: 6px;
+}
+#photo2 {
+    display:flex;
+    gap: 8vw;
+    margin-left:14vw;
+}
+.section5{
+    margin-top:20vh;
+}
+.livingroom{
+    display: flex;
+    justify-content:center;
+    padding:2vw;
+    gap: 17vw;
+}
+.text{
+    display: flex;
+}
+span{
+    background-color: #0FA6C0;
+    width:25vw;
+    height: 5vh;
+    display: flex;
+    padding:1vh 1vw;
+    font-size:3vh;
+}
+.section5text{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;  
+    margin-left:8vw;
+}
+.section5img img{
+    width:40%;
+    height:90%;
+    border-radius:60%;
+}
+#img5{
+    position: relative;
+    top:-6vh;
+    left:7vw;
+    z-index: 1;
+}
+#img6{
+    position: relative;
+    top: 1vh;
+}
